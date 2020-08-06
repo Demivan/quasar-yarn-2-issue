@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "quasar",
-        "npm:1.12.13"
+        "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:1.12.13"
       ],
       [
         "rollup",
@@ -64,7 +64,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/plugin-commonjs", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:14.0.0"],
             ["@rollup/plugin-json", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:4.1.0"],
             ["@rollup/plugin-node-resolve", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:8.4.0"],
-            ["quasar", "npm:1.12.13"],
+            ["quasar", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:1.12.13"],
             ["rollup", "npm:2.23.0"],
             ["vue", "npm:2.6.11"]
           ],
@@ -1023,10 +1023,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["quasar", [
-        ["npm:1.12.13", {
-          "packageLocation": "./.yarn/cache/quasar-npm-1.12.13-43fa104864-6045478a6d.zip/node_modules/quasar/",
+        ["virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:1.12.13", {
+          "packageLocation": "./.yarn/$$virtual/quasar-virtual-1919255332/0/cache/quasar-npm-1.12.13-43fa104864-6045478a6d.zip/node_modules/quasar/",
           "packageDependencies": [
-            ["quasar", "npm:1.12.13"]
+            ["quasar", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:1.12.13"],
+            ["vue", "npm:2.6.11"]
+          ],
+          "packagePeers": [
+            "vue"
           ],
           "linkType": "HARD",
         }]
@@ -1039,7 +1043,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/plugin-commonjs", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:14.0.0"],
             ["@rollup/plugin-json", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:4.1.0"],
             ["@rollup/plugin-node-resolve", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:8.4.0"],
-            ["quasar", "npm:1.12.13"],
+            ["quasar", "virtual:24cf788a284c362c54bccc4c0665793b553a65549495652372a0f28ec6f2bd591ab839456858aea7be62460c179de9f77e5f1e6bd323a74afc66c936be39cb0d#npm:1.12.13"],
             ["rollup", "npm:2.23.0"],
             ["vue", "npm:2.6.11"]
           ],
